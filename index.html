@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página personal</title>
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+    <div id="cartel-bienvenida" class="cartel-bienvenida">
+        <h1>Bienvenidas a mi Portafolio</h1>  
+        <button id="boton-inicio">Inicio</button>
+    </div>
+    <div id="contenido" class="contenido oculto">
+        <header id="cabecera">
+            <h1>Bienvenido a mi página personal</h1> 
+        </header>
+        <section id="experiencia">
+            <h2>Mi experiencia</h2>
+            <p>Soy Fernanda Inzaurralde y te doy la bienvenida a mi página web. <br> Aquí podrás conocer más sobre mis habilidades en la configuración de dispositivos inteligentes, ya sea que necesites configurar un celular, una cámara Wi-Fi, un reloj inteligente u otro dispositivo. <br> ¡Estoy aquí para ayudarte!</p>
+        </section>
+        <section class="galeria">
+            <h2>Te muestro fotos de algunos de los dispositivos que he configurado:</h2>
+            <div class="fotos">
+                <img src="images/Camara2.jpeg" alt="">
+                <img src="images/Camara1.jpeg" alt="">
+                <img src="images/Reloj.jpeg" alt="">
+            </div>
+        </section>
+        <footer> 
+            <p>Hasta luego</p>
+        </footer> 
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cartelBienvenida = document.getElementById("cartel-bienvenida");
+            const botonInicio = document.getElementById('boton-inicio');
+            const contenido = document.getElementById('contenido');
+        
+            botonInicio.addEventListener("click", function() {
+                cartelBienvenida.classList.add("hidden");
+                contenido.classList.remove("oculto");
+                document.body.style.overflow = "auto";
+            });
+        });
+    </script>
+</body>
+</html>

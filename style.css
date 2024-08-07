@@ -1,0 +1,108 @@
+body {
+    background-image: url("images/Celulares.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5d3b66;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d2ffcc; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #b300b3;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#experiencia {
+    background-color: #ffccff; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#experiencia h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #993399; 
+}
+
+#experiencia p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.galeria {
+    text-align: center;
+    background-color: #ffd6e1; 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.galeria h2 {
+    color: #f838ae;
+    margin-bottom: 10px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #ffd6e1; 
+    padding: 10px; 
+}
+
+.fotos img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff99ff; 
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #4d004d;
+    margin: 0;
+}
+
+.cartel-bienvenida {
+    background-color: #d2ffcc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333; 
+}
+.oculto {
+    display: none; 
+}
+
+
+
+
+
+
